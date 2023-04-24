@@ -1,0 +1,57 @@
+name: travelust_app
+description: A new Flutter project.
+publish_to: "none" # of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^0.22.0-nullsafety.3
+  smooth_page_indicator: ^1.0.1
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  firebase_core: ^2.10.0
+  firebase_auth: ^4.4.2
+  flutter_lints: ^2.0.0
+  hive_generator: ^2.0.0
+  build_runner: ^2.3.3
+  font_awesome_flutter: ^10.4.0
+  syncfusion_flutter_datepicker: ^21.1.39
+  intl: ^0.18.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/onboard/
+    - assets/images/cities/
+    - assets/images/cities-min/
+
+  fonts:
+    - family: IBMPlex
+      fonts:
+        - asset: assets\fonts\ibm\IBMPlexSans-Bold.ttf
+        - asset: assets\fonts\ibm\IBMPlexSans-BoldItalic.ttf
+        - asset: assets\fonts\ibm\IBMPlexSans-ExtraLight.ttf
+        - asset: assets\fonts\ibm\IBMPlexSans-ExtraLightItalic.ttf
+        - asset: assets\fonts\ibm\IBMPlexSans-Italic.ttf
+        - asset: assets\fonts\ibm\IBMPlexSans-Light.ttf
+        - asset: assets\fonts\ibm\IBMPlexSans-LightItalic.ttf
+        - asset: assets\fonts\ibm\IBMPlexSans-Medium.ttf
+        - asset: assets\fonts\ibm\IBMPlexSans-MediumItalic.ttf
+        - asset: assets\fonts\ibm\IBMPlexSans-Regular.ttf
+        - asset: assets\fonts\ibm\IBMPlexSans-Semibold.ttf
+        - asset: assets\fonts\ibm\IBMPlexSans-SemiboldItalic.ttf
+        - asset: assets\fonts\ibm\IBMPlexSans-Thin.ttf
+        - asset: assets\fonts\ibm\IBMPlexSans-ThinItalic.ttf

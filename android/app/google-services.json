@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "7721456469",
+    "project_id": "travelustapp",
+    "storage_bucket": "travelustapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:7721456469:android:c4ab05958a74c71021d5dc",
+        "android_client_info": {
+          "package_name": "com.example.travelust_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "7721456469-8f93as6t1jc5ga8q9c1n2kqll1op97c7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUPoba9v8EMDUfhcl6FvDXCr24murUyQc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "7721456469-8f93as6t1jc5ga8q9c1n2kqll1op97c7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
